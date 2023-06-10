@@ -1,0 +1,14 @@
+.container {
+  background-color: #ddd;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.loading {
+  justify-content: center;
+  align-items: center;
+}

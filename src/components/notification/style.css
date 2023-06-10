@@ -1,0 +1,112 @@
+/* notification css start */
+body {
+  position: relative;
+}
+#meis_notification_wrp_id {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 40px;
+  position: absolute;
+  min-width: 480px;
+  min-height: 48px;
+  height: auto;
+  /* right: 24px; */
+  right: -100vh;
+  bottom: 24px;
+  /* top: 104px; */
+  border-bottom: 2px solid #006df5;
+  box-shadow: 0px 2px 4px -1px rgba(148, 157, 178, 0.2),
+    0px 4px 5px rgba(148, 157, 178, 0.14),
+    0px 1px 10px rgba(148, 157, 178, 0.12);
+  border-radius: 4px 4px 0px 0px;
+  z-index: 21474836470;
+  transition: all 0.7s ease-in-out;
+  transform: rotateX(0deg);
+}
+#meis_notification_wrp_id.animate {
+  right: 24px;
+  transition: all 0.7s ease-in-out;
+}
+#meis_notification_wrp_id .meis_nt_left_wrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 8px;
+  width: 346px;
+  min-height: 36px;
+  height: auto;
+}
+#meis_notification_wrp_id .meis_nt_left_wrp .meis_nt_li_wrp {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+}
+#meis_notification_wrp_id .meis_nt_left_wrp .meis_nt_info_wrp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+#meis_notification_wrp_id .meis_nt_close_wrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 70px;
+  height: 28px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.46px;
+  text-transform: capitalize;
+  color: #006df5;
+  cursor: pointer;
+}
+#meis_notification_wrp_id.meis_nt_hide {
+  right: -100vw;
+  display: none !important;
+}
+#meis_notification_wrp_id.meis_nt_replace {
+  transform: rotateX(360deg);
+}
+/* dynamic css */
+#meis_notification_wrp_id.info {
+  background: #e1effe;
+}
+#meis_notification_wrp_id.error {
+  background: #fde8e8;
+}
+#meis_notification_wrp_id.success {
+  background: #def7ec;
+}
+#meis_notification_wrp_id.warning {
+  background: #fdf6b2;
+}
+#meis_notification_wrp_id.default {
+  background: #f3f4f6;
+}
+#meis_notification_wrp_id.info .meis_nt_left_wrp .meis_nt_info_wrp {
+  color: #1a56db;
+}
+#meis_notification_wrp_id.error .meis_nt_left_wrp .meis_nt_info_wrp {
+  color: #c81e1e;
+}
+#meis_notification_wrp_id.success .meis_nt_left_wrp .meis_nt_info_wrp {
+  color: #046c4e;
+}
+#meis_notification_wrp_id.warning .meis_nt_left_wrp .meis_nt_info_wrp {
+  color: #8e4b10;
+}
+#meis_notification_wrp_id.default .meis_nt_left_wrp .meis_nt_info_wrp {
+  color: #374151;
+}
+/* notification css end */

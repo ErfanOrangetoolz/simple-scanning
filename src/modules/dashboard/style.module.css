@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  overflow-y: auto;
+}
+/* for table */
+.item_table {
+  width: 100%;
+}
