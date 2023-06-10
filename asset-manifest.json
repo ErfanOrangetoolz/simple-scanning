@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple-scanning/static/css/main.927e46eb.css",
+    "main.js": "/simple-scanning/static/js/main.1725b19f.js",
+    "index.html": "/simple-scanning/index.html",
+    "main.927e46eb.css.map": "/simple-scanning/static/css/main.927e46eb.css.map",
+    "main.1725b19f.js.map": "/simple-scanning/static/js/main.1725b19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.927e46eb.css",
+    "static/js/main.1725b19f.js"
+  ]
+}

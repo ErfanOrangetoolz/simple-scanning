@@ -1,0 +1,24 @@
+:root{
+    --primary_color: #ddd;
+    --error_color: #972121;
+    --color: #6f8ae2
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cursor_pointer{
+    cursor: pointer !important;
+}
+.cursor_disable{
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}
+.displayInlineFlex{
+    display: inline-flex;
+}
+input:focus, input:focus-visible, input:focus-within, input:target, input:active, input:visited{
+    border: none !important;
+    outline: 0px;
+    outline-offset: 0px;
+}
